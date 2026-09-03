@@ -1,0 +1,3279 @@
+﻿{
+  "ScenarioAnalysis": [{
+    "Scenario-ID": "3_2_3_0_0_0_2_0_0_0_2_1_1_4_0_1_0_1_Observation-1",
+    "Design-ID": "3.1",
+    "ThroughputAndYield": {
+      "NumManufacturing": 11149,
+      "NumRepair": 32417,
+      "NumScrapParts": 2420
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 157.3546759786005,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 16.503090108281047,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.8785597560989473,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 21.373386449271333,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 0.5779198659519318,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 29.265265776540335,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.022346629771407424,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.003345453809615349,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.24915970077867536,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 4.515492019310581,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 122.868770495289,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.31818982733878265,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08842169355884068,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.02368438220325711,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 11.912499873398039,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.1367366720901955,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6424523702973732,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 0.8114011924954385,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4230951160218449,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.40570519213845707,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.17853042652037981,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 21.373386449271333,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.07131820820652929,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 0.5066016577454026,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 25.227651719753144,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.734393830116128,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.2964880749950935,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.173640576940806,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.09534562035800502,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017396359809999818,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.3986555212458806,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.7045982372897441,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 22.116378689152018,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.6363796546775653,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09846639794712497,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.002447386161003235,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.734393830116128,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14208138235361895,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.18087139190378412,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.4997709550034274,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 845500.5277862403,
+      "AverageCycleTime": 7041.924377464022,
+      "AverageMachineUtilization": 0.1641488390018821,
+      "AverageWorkerUtilization": 0.14693308536287786,
+      "EnergyValueAdding_per_Part": 9.513368876378763,
+      "EnergyNonValueAdding_per_Part": 1.4968493331936277
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 8.8763888888889,
+      "Setting-up": 0,
+      "Waiting": 58.39080161395294,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.057434445889918,
+      "Failed": 1.1039464798396648,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 2.620833333333273,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 64.71432211218232,
+      "Blocked": 0.044178807031665046,
+      "PoweringUp/Down": 2.9500893246584465,
+      "Failed": 1.0991015550694279,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 6.723148148148154,
+      "Setting-up": 0,
+      "Waiting": 62.44281328374204,
+      "Blocked": 2.257054441125676,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 6.0508333333336095,
+      "Setting-up": 0,
+      "Waiting": 54.46635663079648,
+      "Blocked": 0.13124032354473833,
+      "PoweringUp/Down": 8.964154245144417,
+      "Failed": 1.815986895752159,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 51.5009858589655,
+      "Setting-up": 1.1818402777777592,
+      "Waiting": 5.730390220517806,
+      "Blocked": 6.640064875168951,
+      "PoweringUp/Down": 1.318189501084219,
+      "Failed": 5.057100695057184,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 6.217361111111111,
+      "Setting-up": 0,
+      "Waiting": 29.135022785309573,
+      "Blocked": 1.8578366691300492,
+      "PoweringUp/Down": 33.846514381434694,
+      "Failed": 0.37183648158599086,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.08486882716049383,
+      "Setting-up": 0,
+      "Waiting": 60.98020108073607,
+      "Blocked": 0.3735300602432461,
+      "PoweringUp/Down": 9.397302475831365,
+      "Failed": 0.5926689846002473,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 3170.4909606967126,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 193.34276163772276,
+      "MaterialCosts": 139.95000000000542,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 2541.349999998318,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 8709.994887829878,
+      "MaterialCosts": 14071.818000006271,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 24611.74072266742,
+      "MaterialCosts": 1680566.6626890462,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 3218.382485726292,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 38.77266062613057,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "3_2_2_0_0_0_1_0_0_0_2_1_1_4_0_1_0_1_Observation-1",
+    "Design-ID": "3.2",
+    "ThroughputAndYield": {
+      "NumManufacturing": 11205,
+      "NumRepair": 32489,
+      "NumScrapParts": 2373
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 157.34509271319124,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 15.78766139706471,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.8788031763535127,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 21.42225412821033,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 0.6274894148399907,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 29.26082167278061,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.02237679285970306,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.003348975164194957,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.24945236286296638,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 4.512774176742923,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 122.86606203999284,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.3180189376343426,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08852555336061613,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.02371220179301825,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 11.3563002785401,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.102622713611592,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6490089838937347,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 0.6797294210192815,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.42302978657273105,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.4072739806394838,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.17856557134341863,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 21.42225412821033,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.07419620576175516,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 0.5532932090782355,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 25.226487383721533,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.74614109614294,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.29657557232349796,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.17361420859183166,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.09547431620139978,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017414670853813773,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.3991237805807462,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.7035722517204535,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 22.115891167198708,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.6360378752686852,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09858205622238211,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024502608519452193,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.74614109614294,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.1420615672054151,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.1810003552361396,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.5007498106930773,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 745713.5516955194,
+      "AverageCycleTime": 7044.582629848431,
+      "AverageMachineUtilization": 0.18234395717201973,
+      "AverageWorkerUtilization": 0.15982246659350785,
+      "EnergyValueAdding_per_Part": 9.518117288595928,
+      "EnergyNonValueAdding_per_Part": 1.5194201442946291
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 17.813888888888897,
+      "Setting-up": 0,
+      "Waiting": 48.71960600570374,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.923613870704397,
+      "Failed": 0.971462663274388,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 2.6296296296298447,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 64.69374660328089,
+      "Blocked": 0.07268293666987309,
+      "PoweringUp/Down": 2.974274338795198,
+      "Failed": 1.0581916238993112,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 6.742901234567901,
+      "Setting-up": 0,
+      "Waiting": 61.91033490371258,
+      "Blocked": 2.7697797347353896,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 6.068611111111294,
+      "Setting-up": 0,
+      "Waiting": 54.262152858213575,
+      "Blocked": 0.5059882462565732,
+      "PoweringUp/Down": 8.946393505529903,
+      "Failed": 1.6454257074600707,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 51.59756500576251,
+      "Setting-up": 1.1888107638888954,
+      "Waiting": 5.439426346488327,
+      "Blocked": 6.609207043079442,
+      "PoweringUp/Down": 1.4556952853060603,
+      "Failed": 5.137866984046181,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 6.234999999999995,
+      "Setting-up": 0,
+      "Waiting": 29.11766887010878,
+      "Blocked": 1.6743226343527724,
+      "PoweringUp/Down": 34.03783870529373,
+      "Failed": 0.36374121881614263,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.08438271604938846,
+      "Setting-up": 0,
+      "Waiting": 60.6036419154494,
+      "Blocked": 0.15748910035032299,
+      "PoweringUp/Down": 9.634166505117976,
+      "Failed": 0.9488911916043223,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 12355.253461255765,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 187.13778812966424,
+      "MaterialCosts": 137.0000000000051,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 2548.8166666649713,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 8830.957346729687,
+      "MaterialCosts": 14113.16200000637,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 24499.94232102492,
+      "MaterialCosts": 1773670.369066861,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 3214.7675087485645,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 39.6852639552176,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "3_0_3_0_0_0_1_0_0_0_2_5_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.3",
+    "ThroughputAndYield": {
+      "NumManufacturing": 2767,
+      "NumRepair": 15160,
+      "NumScrapParts": 740
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 151.58269166382414,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 26.754171089747548,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9573162581513586,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.12734903876027,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.422640947666318,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 27.016962125676145,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.017481757468617742,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.0033246186080030846,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.25257411474789326,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.1969712540847945,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 120.78776878982806,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.1939666577382674,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.0896333994035298,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.024008946268819928,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 20.56959354688627,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.875700360536615,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.9260574877783907,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 1.382819694546271,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.44003966685488427,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.40555293775450846,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.16637194465695648,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.12734903876027,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.019652141538067852,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.40298880612825,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.079621883170717,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 5.242519665602951,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.3227666090573485,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.1603006419456785,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.07458883186610236,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.001728801676161604,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.4041185835966293,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.20685664841701,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.74179838216905,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.3879333154765348,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09981575357577077,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024809244477780592,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 5.242519665602951,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14773179559570865,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.1522007038976149,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.4126492048178926,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 10791468.142392483,
+      "AverageCycleTime": 6696.537545123302,
+      "AverageMachineUtilization": 0.16157096223656536,
+      "AverageWorkerUtilization": 0.06637925862635297,
+      "EnergyValueAdding_per_Part": 9.343781009492698,
+      "EnergyNonValueAdding_per_Part": 2.848125189583932
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 8.341666666666676,
+      "Setting-up": 0,
+      "Waiting": 35.65490762166096,
+      "Blocked": 0,
+      "PoweringUp/Down": 2.651010667445631,
+      "Failed": 0.9714626632743494,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.6488425925927399,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 44.93398087722327,
+      "Blocked": 9.907656037057581e-06,
+      "PoweringUp/Down": 0.9704111310238736,
+      "Failed": 1.0657568142554037,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 0.5533024691358025,
+      "Setting-up": 0,
+      "Waiting": 46.79966692881231,
+      "Blocked": 0.260522665543954,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 2.489861111111201,
+      "Setting-up": 0,
+      "Waiting": 38.51930742931165,
+      "Blocked": 0.00017975018324402548,
+      "PoweringUp/Down": 4.947507169886209,
+      "Failed": 1.6621921585553014,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 39.25546735045982,
+      "Setting-up": 1.0830729166666577,
+      "Waiting": 0.57863546737778,
+      "Blocked": 2.5785326385099245,
+      "PoweringUp/Down": 0.6413834420398471,
+      "Failed": 3.48195580399359,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 2.546111111111111,
+      "Setting-up": 0,
+      "Waiting": 23.880034998978577,
+      "Blocked": 0.3296247341429227,
+      "PoweringUp/Down": 20.509894090556283,
+      "Failed": 0.3533826842587204,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.021736111111111112,
+      "Setting-up": 0,
+      "Waiting": 43.040244036970016,
+      "Blocked": 0.0602739922081589,
+      "PoweringUp/Down": 3.666193297868756,
+      "Failed": 0.8306001808895729,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 5797.05816957706,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 11.916426080747456,
+      "MaterialCosts": 2.250000000000001,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 3922.9368288104006,
+      "MaterialCosts": 5790.420999998429,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 22076.780704218643,
+      "MaterialCosts": 916476.8478221644,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 1460.9609753876186,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 16.572100725289204,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+     "Scenario-ID": "2_2_2_0_0_0_1_0_0_0_3_1_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.4",
+    "ThroughputAndYield": {
+      "NumManufacturing": 5197,
+      "NumRepair": 19597,
+      "NumScrapParts": 1185
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 154.66643098908648,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 19.67854439613622,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9170391745799025,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.86789950167627,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.0348990700580891,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 28.280634050578897,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.02016513530159586,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.0033382097078434388,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.25100357981440297,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.959542892336305,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 121.77572962773085,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.26308178913740077,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08907604860329911,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.02385965587590317,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 14.811752590474816,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.233873302303705,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6354553508847323,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 0.9974631524729681,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4306273552131443,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.40128652968036527,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.17319474253863829,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.86789950167627,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.022776773574394296,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.012122296483695,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.699360874693152,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.72185750366848,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.309308998746891,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.16779842870010145,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.08603791062014232,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017358690480785883,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.40160572770304476,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.4947274418569554,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.91963133299155,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.5261635782748015,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09919508772463388,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024654977738433276,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.72185750366848,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14457877385866677,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.16152551872146118,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.4563097342115218,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 8115720.407178914,
+      "AverageCycleTime": 6902.061743048802,
+      "AverageMachineUtilization": 0.15871041440185504,
+      "AverageWorkerUtilization": 0.07525530288763316,
+      "EnergyValueAdding_per_Part": 9.480841589640617,
+      "EnergyNonValueAdding_per_Part": 1.500222372379102
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 11.061111111111115,
+      "Setting-up": 0,
+      "Waiting": 56.03087835899427,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.3651192951917026,
+      "Failed": 0.9714626632743414,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.8138888888889498,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 68.288364245975,
+      "Blocked": 8.829850489009653e-07,
+      "PoweringUp/Down": 1.2210476350111692,
+      "Failed": 1.1052234794149405,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 3.8262345679012344,
+      "Setting-up": 0,
+      "Waiting": 67.1214494840096,
+      "Blocked": 0.47533182110503336,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 3.4436111111112027,
+      "Setting-up": 0,
+      "Waiting": 59.33394533380832,
+      "Blocked": 0.0003851816829067225,
+      "PoweringUp/Down": 6.814988065847268,
+      "Failed": 1.8356417361217208,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 56.63915781821132,
+      "Setting-up": 1.3965451388889005,
+      "Waiting": 2.641344067881082,
+      "Blocked": 5.474762699348454,
+      "PoweringUp/Down": 0.39479379556558264,
+      "Failed": 4.881967908676087,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 3.5308333333333164,
+      "Setting-up": 0,
+      "Waiting": 36.98956093975638,
+      "Blocked": 1.0665663072204512,
+      "PoweringUp/Down": 29.425734673430416,
+      "Failed": 0.4158761748308534,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.04037037037037037,
+      "Setting-up": 0,
+      "Waiting": 63.67904554228697,
+      "Blocked": 0.09239513954917125,
+      "PoweringUp/Down": 6.860610891585741,
+      "Failed": 0.7561494847791682,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 7682.908068120498,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 10.311677528501617,
+      "MaterialCosts": 0.04999999999999999,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 1446.3166666666607,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 5058.2272936127665,
+      "MaterialCosts": 8008.461999997505,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 27747.35846711607,
+      "MaterialCosts": 1544590.1344445667,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 2075.8781655859952,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 27.849433008470605,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "3_3_0_0_0_0_1_0_0_0_3_5_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.5",
+    "ThroughputAndYield": {
+      "NumManufacturing": 2700,
+      "NumRepair": 15076,
+      "NumScrapParts": 706
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 151.35656396853201,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 27.301579580539304,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9625146261329504,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.154944272848944,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.4653049153954507,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 26.95205453955186,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.017415239151607954,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.003326992930060082,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.2529535764527073,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.1682332215128945,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 120.65737907151525,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.19138824802511795,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08976806261943351,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.024045016773079807,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 20.997846108690723,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.9478411427334708,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.92676695101235,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 1.4291253781027615,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4428890400090672,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.4056554054054054,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.16609243156526282,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.154944272848944,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.019840701305821124,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.4454642140896294,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.040239438939825,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 5.243790787230459,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.3244945996182816,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.15991552360134106,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.07430502038019395,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017300363236312424,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.4047257223243316,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.1960080411211176,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.71832823287275,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.3827764960502359,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09996571453300115,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.002484651733218247,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 5.243790787230459,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.1486766405984359,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.15414500587544067,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.4078732291020011,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 11010695.273816418,
+      "AverageCycleTime": 6685.8595538123445,
+      "AverageMachineUtilization": 0.15909346527777754,
+      "AverageWorkerUtilization": 0.06581151063764878,
+      "EnergyValueAdding_per_Part": 9.334585264341698,
+      "EnergyNonValueAdding_per_Part": 2.860277031543092
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 8.250000000000014,
+      "Setting-up": 0,
+      "Waiting": 35.860424177645925,
+      "Blocked": 0,
+      "PoweringUp/Down": 2.543252478850932,
+      "Failed": 0.965370962550749,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.42407407407416997,
+      "Setting-up": 3.08641975308642e-05,
+      "Waiting": 45.45323638190444,
+      "Blocked": 0,
+      "PoweringUp/Down": 0.6358489725487058,
+      "Failed": 1.1058573263227698,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 0.548641975308642,
+      "Setting-up": 0,
+      "Waiting": 46.84639905632636,
+      "Blocked": 0.21845103185705916,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 2.4688888888887295,
+      "Setting-up": 0,
+      "Waiting": 38.55561592447722,
+      "Blocked": 2.0381655752949e-05,
+      "PoweringUp/Down": 4.9001850882315265,
+      "Failed": 1.6943373357943765,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 38.801224537036994,
+      "Setting-up": 1.0771354166666782,
+      "Waiting": 0.7126330190481853,
+      "Blocked": 3.0198173546711944,
+      "PoweringUp/Down": 0.6876327626249548,
+      "Failed": 3.3206045289996107,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 2.5172222222222254,
+      "Setting-up": 0,
+      "Waiting": 24.118992876334858,
+      "Blocked": 0.3461910600494706,
+      "PoweringUp/Down": 20.207822152580707,
+      "Failed": 0.428819307860355,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.021103395061728397,
+      "Setting-up": 0,
+      "Waiting": 43.24963237800771,
+      "Blocked": 0.010149442193501987,
+      "PoweringUp/Down": 3.571377487923602,
+      "Failed": 0.766784915861072,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 5732.714506533402,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 10.24754414795315,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 3844.7307446483073,
+      "MaterialCosts": 5741.647999998449,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 21955.219921602344,
+      "MaterialCosts": 920350.2532221635,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 1446.1814354546486,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 15.625967876378853,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "3_3_0_0_0_0_1_0_0_0_5_1_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.6",
+    "ThroughputAndYield": {
+      "NumManufacturing": 5178,
+      "NumRepair": 19607,
+      "NumScrapParts": 1177
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 154.57329166726308,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 20.131393191967454,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9238100977612651,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.855184347794584,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.0261119823608864,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 28.235255835451465,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.02013317733611306,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.0033420325860898576,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.25107676604261514,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.9300150681767985,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 121.75963639160399,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.2608637624220218,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08910202090228443,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.02386661274170281,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 15.13803630807091,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.3106616308556345,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6383575580214487,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 1.0443376950194607,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4312784948411896,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.40241400911161734,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.17301911478614757,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.855184347794584,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.025820844965657265,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.0002911373952292,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.680624414566974,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.727057291455097,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.3115599952537871,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.16752918462367872,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.08590155663408237,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017378569447667263,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.4017228256681843,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.4835806882367413,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.91673455048872,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.5217275248440436,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09922401047678395,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024662166499759574,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.727057291455097,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14477790167914226,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.16301530022779046,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.45063320407664603,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 7958016.37881737,
+      "AverageCycleTime": 6898.181457679282,
+      "AverageMachineUtilization": 0.1577953226936371,
+      "AverageWorkerUtilization": 0.08094178985443023,
+      "EnergyValueAdding_per_Part": 9.473980253207182,
+      "EnergyNonValueAdding_per_Part": 1.519176238548856
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 11.030555555555548,
+      "Setting-up": 0,
+      "Waiting": 56.094435051645405,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.332118158096127,
+      "Failed": 0.9714626632743407,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.4859259259259804,
+      "Setting-up": 2.7777777777777782e-05,
+      "Waiting": 69.08733095761197,
+      "Blocked": 6.699571272738293e-06,
+      "PoweringUp/Down": 0.7284898941756084,
+      "Failed": 1.1267901735088048,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 3.8248456790123475,
+      "Setting-up": 0,
+      "Waiting": 66.27822024359806,
+      "Blocked": 1.3199499504054648,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 3.4423611111110928,
+      "Setting-up": 0,
+      "Waiting": 59.42206798091696,
+      "Blocked": 0.0006568004088090355,
+      "PoweringUp/Down": 6.796065693828589,
+      "Failed": 1.7674198423059733,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 56.544374309781496,
+      "Setting-up": 1.3981076388889018,
+      "Waiting": 2.6189642023486384,
+      "Blocked": 5.692884434877313,
+      "PoweringUp/Down": 0.3935810244480629,
+      "Failed": 4.780659818227004,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 3.5293055555555437,
+      "Setting-up": 0,
+      "Waiting": 36.8812431167627,
+      "Blocked": 1.142747875895824,
+      "PoweringUp/Down": 29.495105065438025,
+      "Failed": 0.38016981491932855,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.04029320987654321,
+      "Setting-up": 0,
+      "Waiting": 63.945013326740415,
+      "Blocked": 0.00046571091106989133,
+      "PoweringUp/Down": 6.8501301964432075,
+      "Failed": 0.5926689846001838,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 7661.502938295975,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 10.526269775896548,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 1445.791666666661,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 5048.976009076585,
+      "MaterialCosts": 8005.554999997506,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 27766.179929945127,
+      "MaterialCosts": 1543341.4036001195,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 2082.3701166042215,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 26.78469052165612,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "4_3_0_0_0_0_1_0_0_0_3_5_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.7",
+    "ThroughputAndYield": {
+      "NumManufacturing": 2661,
+      "NumRepair": 15108,
+      "NumScrapParts": 727
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 151.23584651214466,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 27.285293631721775,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9585619483474064,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.13676708434223,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.4428691547214496,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 26.901757785466938,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.017291799127740107,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.0033264690864110826,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.252662575691984,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.138089792387579,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 120.61985726642213,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.1891786764706005,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08966479238749121,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.024017355103809524,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 20.981952410295303,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.9463667820069208,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.928930795491391,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 1.4280436439281596,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4427641295086624,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.4044539163722026,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.1658235184166106,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.13676708434223,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.01976352661058994,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.4231056281108598,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.016278387857835,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 5.247667675255409,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.3231683335879092,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.1596170961937705,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.07377834294502446,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.001729763924933763,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.40426012110717446,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.1846288966263112,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.711574307955985,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.378357352941201,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.0998507128027102,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024817933607269842,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 5.247667675255409,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14863482533371203,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.15410577738515902,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.40752132021706,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 11021534.041565487,
+      "AverageCycleTime": 6673.754757482772,
+      "AverageMachineUtilization": 0.15890689120370308,
+      "AverageWorkerUtilization": 0.10340308612961813,
+      "EnergyValueAdding_per_Part": 9.319441172265877,
+      "EnergyNonValueAdding_per_Part": 2.884437142281586
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 8.219444444444461,
+      "Setting-up": 0,
+      "Waiting": 35.89494135966777,
+      "Blocked": 0,
+      "PoweringUp/Down": 2.533199151661121,
+      "Failed": 0.971462663274263,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.41743827160498476,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 45.46897155357028,
+      "Blocked": 6.196366927284926e-08,
+      "PoweringUp/Down": 0.6267341092896274,
+      "Failed": 1.1058573263227613,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 0.5484259259259259,
+      "Setting-up": 0,
+      "Waiting": 46.84450176108106,
+      "Blocked": 0.22056437648507338,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 2.467916666666518,
+      "Setting-up": 0,
+      "Waiting": 38.56289201875588,
+      "Blocked": 9.479514863369032e-07,
+      "PoweringUp/Down": 4.893900649879367,
+      "Failed": 1.6943373357943585,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 38.77387885802456,
+      "Setting-up": 1.0785590277777564,
+      "Waiting": 0.6979251394520738,
+      "Blocked": 3.0370306014338535,
+      "PoweringUp/Down": 0.7283318612995527,
+      "Failed": 3.303322131059823,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 2.5212499999999998,
+      "Setting-up": 0,
+      "Waiting": 24.038429111938598,
+      "Blocked": 0.517069206692939,
+      "PoweringUp/Down": 20.113479992555696,
+      "Failed": 0.4288193078603837,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.02060956790123457,
+      "Setting-up": 0,
+      "Waiting": 43.322815495907925,
+      "Blocked": 0.02021765642990781,
+      "PoweringUp/Down": 3.4886199829474793,
+      "Failed": 0.7667849158610737,
+      "Unplanned": 52.38095238095239,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 5711.560278080747,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 10.43834519416874,
+      "MaterialCosts": 0.14999999999999997,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 3889.7495800304214,
+      "MaterialCosts": 5739.38699999845,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 21979.289868575164,
+      "MaterialCosts": 920154.4611777192,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 1468.0487961573995,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 15.401209019640483,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "2_3_2_0_0_0_1_0_0_0_1_1_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.8",
+    "ThroughputAndYield": {
+      "NumManufacturing": 5238,
+      "NumRepair": 19571,
+      "NumScrapParts": 1138
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 154.5805838987568,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 19.26929229001071,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9215268420977873,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.904495286190148,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.0288296250171824,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 28.25868239102754,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.020292163512808468,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.0033461898827977397,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.25147531506526277,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.951446872471001,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 121.71975488491253,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.262440374609802,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08924217314776685,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.023903534127262822,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 14.513251723349653,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.1593707087841338,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6442246719943445,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 0.9524451858825775,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.43124477639296194,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.4023902689152234,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.1732182033341537,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.904495286190148,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.023739043040920497,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.0050905819762619,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.68630654142373,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.737569203989868,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.3108182597732872,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.16766818218676344,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.08657989765464946,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017400187390548248,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.4023605041044205,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.4916711943578027,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.90955587928426,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.524880749219604,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09938008401735317,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024700318598171586,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.737569203989868,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14478628991528184,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.16202338149498632,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.45580940340138043,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 8129057.331478292,
+      "AverageCycleTime": 6910.700010941148,
+      "AverageMachineUtilization": 0.16192312019178748,
+      "AverageWorkerUtilization": 0.09582925910058648,
+      "EnergyValueAdding_per_Part": 9.48960407026765,
+      "EnergyNonValueAdding_per_Part": 1.5279987297087887
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 11.091666666666672,
+      "Setting-up": 0,
+      "Waiting": 55.98071970430023,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.384722394330148,
+      "Failed": 0.9714626632743558,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 2.4634259259262423,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 64.25815275607583,
+      "Blocked": 0.0001120832654084435,
+      "PoweringUp/Down": 3.6240763165968115,
+      "Failed": 1.0827580504108314,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 3.8285493827160524,
+      "Setting-up": 0,
+      "Waiting": 66.46223482495124,
+      "Blocked": 1.1322316653485736,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 3.445833333333536,
+      "Setting-up": 0,
+      "Waiting": 59.38726882531755,
+      "Blocked": 0.0014608363777601956,
+      "PoweringUp/Down": 6.797811960543089,
+      "Failed": 1.796196472999485,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 56.562694355152466,
+      "Setting-up": 1.3939930555555673,
+      "Waiting": 2.5109977628473676,
+      "Blocked": 5.688428997425994,
+      "PoweringUp/Down": 0.34443915935802494,
+      "Failed": 4.928018098231998,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 3.52875,
+      "Setting-up": 0,
+      "Waiting": 36.31765999591679,
+      "Blocked": 1.6745172412148208,
+      "PoweringUp/Down": 29.576488725751766,
+      "Failed": 0.3311554656880419,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.04064043209876543,
+      "Setting-up": 0,
+      "Waiting": 63.610365119661495,
+      "Blocked": 0.0006990409948738771,
+      "PoweringUp/Down": 6.854205618637661,
+      "Failed": 0.9226612171786228,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 7704.197438897022,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 360.2443559803882,
+      "MaterialCosts": 266.04999999998137,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 1447.1916666666602,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 5027.166046307153,
+      "MaterialCosts": 8013.629999997503,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 27922.582869163125,
+      "MaterialCosts": 1529840.445511228,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 2123.94848562543,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 27.949981987321724,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }, {
+    "Scenario-ID": "3_2_3_0_0_0_1_0_0_0_3_1_1_2_0_1_0_1_Observation-1",
+    "Design-ID": "3.9",
+    "ThroughputAndYield": {
+      "NumManufacturing": 5101,
+      "NumRepair": 19108,
+      "NumScrapParts": 1161
+    },
+    "PartCostAnalysis": {
+      "CoarseCosts": [{
+        "CostType": "MaterialCosts",
+        "Value": 154.56976648355456,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "Value": 20.09988874049358,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "Value": 0.9253633889664155,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCost",
+        "Value": 20.908599658305132,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCost",
+        "Value": 1.093791134941702,
+        "Unit": "EUR"
+      }],
+      "FineCosts": [{
+        "CostType": "MaterialCosts",
+        "CostPortion": "Shielding Gas",
+        "Value": 28.269302010248023,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Lubricant",
+        "Value": 0.020195042044415287,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Water",
+        "Value": 0.003338565453512712,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Blasting media",
+        "Value": 0.25096440677959875,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Unalloyed carbon steel",
+        "Value": 3.962301616082157,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "NiFe5545",
+        "Value": 121.68821757977518,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Construction steel",
+        "Value": 0.2625291840757004,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Cleaning agent",
+        "Value": 0.08906214689259588,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MaterialCosts",
+        "CostPortion": "Graphite Spray",
+        "Value": 0.023855932203393222,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineDepreciationCosts",
+        "Value": 15.16730471217758,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineRoomCosts",
+        "Value": 1.2634920977748503,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineEnergyCosts",
+        "Value": 2.6476849444120476,
+        "Unit": "EUR"
+      }, {
+        "CostType": "MachineCosts",
+        "CostPortion": "MachineMaintenanceCosts",
+        "Value": 1.0214069861290989,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostOut",
+        "Value": 0.4317433021806854,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostIn",
+        "Value": 0.4024929365446967,
+        "Unit": "EUR"
+      }, {
+        "CostType": "TransportCosts",
+        "CostPortion": "TransportCostMaterials",
+        "Value": 0.17313467394867793,
+        "Unit": "EUR"
+      }, {
+        "CostType": "LaborCosts",
+        "CostPortion": "LaborCost",
+        "Value": 20.908599658305132,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "IncomingGoodsWarehouseCosts",
+        "Value": 0.02329002530232857,
+        "Unit": "EUR"
+      }, {
+        "CostType": "StorageCosts",
+        "CostPortion": "ShipmentWarehouseCosts",
+        "Value": 1.0705011096393735,
+        "Unit": "EUR"
+      }]
+    },
+    "PartPCFAnalysis": {
+      "CoarsePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "Value": 24.68352692188939,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "Value": 4.743768858738252,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "Value": 0.31211880477961446,
+        "Unit": "kg CO2-eq."
+      }],
+      "FinePCFs": [{
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Shielding Gas",
+        "Value": 0.16773119192747163,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Lubricant",
+        "Value": 0.08616551272283855,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Water",
+        "Value": 0.0017360540358266105,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cast iron (recycled)",
+        "Value": 0,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Blasting media",
+        "Value": 0.4015430508473581,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Unalloyed carbon steel",
+        "Value": 1.4957688600710144,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "NiFe5545",
+        "Value": 21.903879164359534,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Construction steel",
+        "Value": 0.5250583681514008,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Cleaning agent",
+        "Value": 0.09917960677959477,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "MaterialEmissions",
+        "EmissionPortion": "Graphite Spray",
+        "Value": 0.0024651129943506337,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "EnergyEmissions",
+        "EmissionPortion": "MachineEnergyCosts",
+        "Value": 4.743768858738252,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsOut",
+        "Value": 0.14496157840083074,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsIn",
+        "Value": 0.16164659564613248,
+        "Unit": "kg CO2-eq."
+      }, {
+        "EmissionType": "TransportEmissions",
+        "EmissionPortion": "TransportEmissionsMaterials",
+        "Value": 0.4795286503518941,
+        "Unit": "kg CO2-eq."
+      }]
+    },
+    "TechnicalKPI": {
+      "AverageLeadTime": 8067728.598230833,
+      "AverageCycleTime": 6915.532051244675,
+      "AverageMachineUtilization": 0.15522534122089765,
+      "AverageWorkerUtilization": 0.06443018954679736,
+      "EnergyValueAdding_per_Part": 9.495050244871576,
+      "EnergyNonValueAdding_per_Part": 1.5369703568452904
+    },
+    "MachineStates": [{
+      "EquipmentType": "HeatingMachine1",
+      "Working": 10.93888888888888,
+      "Setting-up": 0,
+      "Waiting": 56.29201648208277,
+      "Blocked": 0,
+      "PoweringUp/Down": 3.2262033943254096,
+      "Failed": 0.9714626632743594,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "Working": 0.7970679012346542,
+      "Setting-up": 4.6296296296296294e-05,
+      "Waiting": 68.33225668188936,
+      "Blocked": 3.3796174000841365e-08,
+      "PoweringUp/Down": 1.193977035940019,
+      "Failed": 1.1052234794149134,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "Working": 3.735956790123457,
+      "Setting-up": 0,
+      "Waiting": 66.65573568761539,
+      "Blocked": 1.0313233952770127,
+      "PoweringUp/Down": 0,
+      "Failed": 0.005555555555555556,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "Working": 3.3623611111113214,
+      "Setting-up": 0,
+      "Waiting": 59.558711617624205,
+      "Blocked": 1.1124606811868194e-06,
+      "PoweringUp/Down": 6.67136077389203,
+      "Failed": 1.836136813483175,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "Working": 55.29417524007817,
+      "Setting-up": 1.3774305555555557,
+      "Waiting": 3.002326616536893,
+      "Blocked": 5.723328483033733,
+      "PoweringUp/Down": 1.1512591769005203,
+      "Failed": 4.880051356466546,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "Working": 3.4445833333333216,
+      "Setting-up": 0,
+      "Waiting": 38.04404479276318,
+      "Blocked": 0.8453573255692284,
+      "PoweringUp/Down": 28.67870980207482,
+      "Failed": 0.415876174830873,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "Working": 0.039637345679012344,
+      "Setting-up": 0,
+      "Waiting": 63.84471589486949,
+      "Blocked": 0.09237232668731442,
+      "PoweringUp/Down": 6.695696376556406,
+      "Failed": 0.7561494847792058,
+      "Unplanned": 28.57142857142858,
+      "Unit": "%"
+    }],
+    "MachineCostAnalysis": [{
+      "EquipmentType": "HeatingMachine1",
+      "DepreciationCosts": 24657.534246575342,
+      "EnergyCosts": 7597.227834737033,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 1479.4520547945206,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "DrillingMachine1",
+      "DepreciationCosts": 4109.58904109589,
+      "EnergyCosts": 10.37554523466086,
+      "MaterialCosts": 0.09999999999999998,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "CoatingStation",
+      "DepreciationCosts": 821.917808219178,
+      "EnergyCosts": 0,
+      "MaterialCosts": 1412.1916666666762,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "SandblastingMachine1",
+      "DepreciationCosts": 10684.931506849314,
+      "EnergyCosts": 4960.322959912205,
+      "MaterialCosts": 7819.506999997583,
+      "MaintenanceCosts": 250,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "WAAMMillScanCell1",
+      "DepreciationCosts": 71232.87671232877,
+      "EnergyCosts": 27109.71639362206,
+      "MaterialCosts": 1304760.9669555817,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 9863.013698630137,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "XRayMachine_NoPallet",
+      "DepreciationCosts": 119863.01369863014,
+      "EnergyCosts": 2001.3450765640134,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 333.3333333333333,
+      "RoomCosts": 2958.904109589041,
+      "Unit": "EUR"
+    }, {
+      "EquipmentType": "StripeProjectionScanner",
+      "DepreciationCosts": 73972.60273972603,
+      "EnergyCosts": 27.284649998022616,
+      "MaterialCosts": 0,
+      "MaintenanceCosts": 416.6666666666667,
+      "RoomCosts": 986.3013698630137,
+      "Unit": "EUR"
+    }]
+  }]
+}
